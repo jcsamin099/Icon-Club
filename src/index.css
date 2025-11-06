@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+/* Reveal animation for the whole section */
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 600ms ease, transform 600ms ease;
+}
+
+/* Shown state */
+.reveal.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Underline: starts at 0 width, grows to full width when .show is added */
+.about-underline {
+  display: block;
+  height: 4px;                /* thickness of the underline */
+  width: 0%;
+  background-color: #902028;  /* CIC maroon */
+  margin: 8px auto 0;
+  transition: width 600ms cubic-bezier(.2,.9,.2,1);
+}
+
+/* When the section gets the show class, toggle the underline too */
+.about-underline.show {
+  width: 60%;   /* change to 100% if you want full-width underline */
+}
+
+/* Optional: ensure the underline centers under the title */
+@media (min-width: 768px) {
+  .about-underline.show { width: 45%; } /* slightly shorter on larger screens */
+}
+
+.reveal-section {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+}
+
+.reveal.show .reveal-section {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Stagger delays */
+.reveal.show .delay-1 {
+  transition-delay: 0.2s;
+}
+
+.reveal.show .delay-2 {
+  transition-delay: 0.4s;
+}
+
+.reveal.show .delay-3 {
+  transition-delay: 0.6s;
+}
