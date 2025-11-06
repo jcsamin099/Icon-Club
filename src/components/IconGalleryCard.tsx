@@ -1,4 +1,4 @@
-import React from "react";
+
 
 const IconGalleryCard = () => {
   const galleries = [
@@ -37,7 +37,7 @@ const IconGalleryCard = () => {
       {galleries.map((gallery) => (
         <div
           key={gallery.id}
-          className="w-[250px] h-[320px] p-5 rounded-2xl bg-white/30 backdrop-blur-md border border-[#902028]/30 shadow-[0_0_25px_rgba(144,32,40,0.25)] hover:scale-105 transition-transform duration-300 cursor-pointer flex flex-col items-center text-center"
+          className="w-[250px] h-80 p-5 rounded-2xl bg-white/30 backdrop-blur-md border border-[#902028]/30 shadow-[0_0_25px_rgba(144,32,40,0.25)] hover:scale-105 transition-transform duration-300 cursor-pointer flex flex-col items-center text-center"
         >
           <img
             src={gallery.image}
@@ -48,7 +48,7 @@ const IconGalleryCard = () => {
           <h3 className="text-[#902028] text-xl font-bold mt-3">
             {gallery.title}
           </h3>
-          <p className="text-gray-600 mt-1 break-words">
+          <p className="text-gray-600 mt-1 wrap-break-words">
             {gallery.description}
           </p>
         </div>

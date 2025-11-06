@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 import Discord from "../assets/Discord.png";
 import LinkedIn from "../assets/LinkedIn.png";
 import GitHub from "../assets/GitHub.png";

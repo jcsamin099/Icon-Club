@@ -1,4 +1,4 @@
-import React from "react";
+
 import CICLOGO from "../assets/CIC-LOGO-removebg-preview.png";
 
 const Header = () => {
