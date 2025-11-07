@@ -10,10 +10,10 @@ const IconClub = () => {
   return (
     <div>
       <Header />
-      <Hero />
-      <About />
-      <Announcement />
-      <IconGallery />
+      <section id="home"><Hero /></section> 
+      <section id="about"><About /></section>
+      <section id='events'><Announcement /></section>
+      <section id='gallery'><IconGallery /></section>
       <Footer />
     </div>
   )

@@ -36,7 +36,7 @@ const IconGallery = () => {
         className="reveal flex flex-col justify-center items-center"
       >
         <h1 className="text-[#902028] text-3xl font-bold py-13 relative text-center">
-          Icon Gallery
+          JSWAP & JFINEX Gallery
           <span className="about-underline"></span>
         </h1>
       </div>
@@ -50,7 +50,7 @@ const IconGallery = () => {
   hover:bg-white hover:text-[#902028] hover:shadow-lg hover:scale-105
   text-sm sm:text-base md:text-lg"
         >
-          Add Project
+          Join JSWAP
         </span>
 
         <span
@@ -59,7 +59,7 @@ const IconGallery = () => {
   hover:bg-white hover:text-[#902028] hover:shadow-lg hover:scale-105
   text-sm sm:text-base md:text-lg"
         >
-          Join ICON
+          Join JFINEX
         </span>
       </div>
     </div>

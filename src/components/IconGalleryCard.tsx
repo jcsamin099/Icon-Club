@@ -1,34 +1,37 @@
-
+import JFINEXXMAS from "../assets/JFINEXXMAS.jpg";
+import JSWAPxJFINEX from "../assets/JSWAPxJFINEX.jpg";
+import CelebrationSeries from "../assets/CelebrationSeries.jpg";
+import JSWAPLICENSURE from "../assets/JSWAPLICENSURE.jpg"
 
 const IconGalleryCard = () => {
   const galleries = [
     {
       id: 1,
-      image: "/public/images/Hackathon.jpg",
-      title: "Hackathon 2022",
+      image: JFINEXXMAS,
+      title: "Christmas Giving",
       description:
-        "Our annual hackathon brought together over 150 students to create innovative tech solutions.",
+        "LOOK: The JFINEX club Christmas Gift giving at Bajau Community, Bakod Bayan, Cabanatuan City",
     },
     {
       id: 2,
-      image: "/public/images/Workshop.jpg",
+      image: JSWAPxJFINEX,
       title: "Team Projects",
       description:
-        "Students collaborating on various software development projects throughout the semester.",
+        "Working hand in hand with the NSTP Students of Junior Social Workers’ Association of the Philippines",
     },
     {
       id: 3,
-      image: "/public/images/iconclub.jpg",
-      title: "Workshop Series",
+      image: CelebrationSeries,
+      title: "Celebration Series",
       description:
-        "Hands-on workshops covering topics from AI to cybersecurity and web development.",
+        "To remind every CICian that caring for one’s mental health is a vital part of living with purpose and joy. ",
     },
     {
       id: 4,
-      image: "/public/images/IndustryConnection.jpg",
-      title: "Industry Connections",
+      image: JSWAPLICENSURE,
+      title: "JSWAP Licensure Examination",
       description:
-        "Networking events with tech companies and alumni working in theindustry.",
+        "Conducted a tribute to Social Work Licensure Examination Board Passers",
     },
   ];
 
